@@ -448,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 80vh  ;
   background: url(../img/hero-bg1.jpg) top center;
   background-size: cover;
   overflow: hidden;
@@ -547,29 +547,30 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
+  justify-content: center;
   width: 100%;
-  height: 80vh;
-  background: url("../img/opera.jpeg") center;
+  height: auto;
   background-size: cover;
+  background: url(../img/White.jpg) top center;
   overflow: hidden;
   position: relative;
 }
 
 
 #about .container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 90px;
-  right: 0;
+  padding:80px 15px;
+}
+
+#about-col{
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   text-align: center;
-  padding: 0 15px;
-
-  
+  flex-direction: column;
+  color: rgb(33, 37, 41);
+  background: url(../img/opera.jpeg) center / cover no-repeat;
+  height: 600px;
 }
 
 @media (min-width: 1024px) {
@@ -578,21 +579,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#about:before {
-  content: "";
-  background: rgba(13, 20, 41, 0.548);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 #about h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #f82249;
 }
 
 #about h3 {
