@@ -699,6 +699,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
+# About what?
+--------------------------------------------------------------*/
+
+#what {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background: url(../img/BG2.jpg) top center;
+  overflow: hidden;
+  position: relative;   
+  padding: 60px 0 30px 0;
+}
+
+@media (min-width: 1024px) {
+  #what {
+    background-attachment: fixed;
+  }
+}
+
+/*--------------------------------------------------------------
 # Speakers Section
 --------------------------------------------------------------*/
 #speakers {
