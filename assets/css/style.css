@@ -132,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  background: rgba(6, 12, 34, 0.678);
   height: 90px;
   position: fixed;
   left: 0;
@@ -238,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(202, 202, 202);
+  color: rgba(255, 255, 255, 0.849);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 13px;
@@ -455,15 +456,9 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.212);
+  background: rgba(6, 12, 34, 0.253);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -699,14 +694,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# About what?
+# About What?
 --------------------------------------------------------------*/
 
 #what {
   width: 100%;
   height: auto;
   background-size: cover;
-  background: #1b233d09;
+  background: #1b233d10;
   overflow: hidden;
   position: relative;   
   padding: 60px 0 30px 0;
@@ -718,6 +713,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#news-letter{
+  text-align: center;
+  width: 25%; 
+  background: rgba(6, 12, 34, 0.144);
+  padding: 15px;
+}
 
 /*--------------------------------------------------------------
 # Speakers Section
