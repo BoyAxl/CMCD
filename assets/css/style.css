@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh  ;
-  background: url(../img/hero-bg1.jpg) top center;
+  background: url(../img/hero-bg-2.png) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -463,7 +463,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.493);
+  background: rgba(6, 12, 34, 0.212);
   position: absolute;
   bottom: 0;
   top: 0;
